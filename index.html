@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piotr Miklosz - ML Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzI1NjNlYiIvPgo8cGF0aCBkPSJNOCAxMmg0djhoLTR2LTh6bTYgMGg0djhoLTR2LTh6bTYgMGg0djhoLTR2LTh6IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-chart-line"></i>
+                <h3>Piotr Miklosz</h3>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Supply Chain <span class="highlight">Analytics Expert</span></h1>
+                <p class="hero-description">Transforming supply chain operations through machine learning and data-driven insights</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="https://www.linkedin.com/in/piotrmikłosz" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-user-circle"></i> Professional Summary
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Analytics professional specializing in <strong>machine learning applications for supply chain optimization</strong>. Proven expertise in developing ML solutions for warehouse operations, logistics routing, and inventory management.</p>
+                    <p>Currently seeking <strong>Analytics Manager</strong> positions to drive data-driven decision making in supply chain operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-cogs"></i> Technical Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Programming</h3>
+                    <p>Python, SQL, Git</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>ML Libraries</h3>
+                    <p>scikit-learn, pandas, numpy, matplotlib</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>ML Techniques</h3>
+                    <p>KNN, Random Forest, Isolation Forest, Time Series</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Deployment</h3>
+                    <p>Streamlit, Jupyter notebooks</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-warehouse"></i>
+                    <h3>Supply Chain</h3>
+                    <p>Anomaly detection, demand forecasting, routing optimization</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-analytics"></i>
+                    <h3>Analytics</h3>
+                    <p>Business intelligence, KPI optimization, data visualization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-project-diagram"></i> Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h3>Warehouse Anomaly Detection</h3>
+                        </div>
+                        <a href="https://github.com/mikloszpiotr/anomaly-detection-warehouse-operations" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">ML-powered anomaly detection system for warehouse operations using Isolation Forest algorithm.</p>
+                    <div class="project-features">
+                        <ul>
+                            <li>80% precision in anomaly identification</li>
+                            <li>Real-time dashboard with Streamlit</li>
+                            <li>Production-ready ML pipeline</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Isolation Forest</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <div class="project-impact">
+                        <i class="fas fa-arrow-up"></i> <strong>Impact:</strong> Proactive operational efficiency improvements
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-route"></i>
+                            <h3>Delivery Routing Optimization</h3>
+                        </div>
+                        <a href="https://github.com/mikloszpiotr/delivery-time-classification-routing" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">KNN classifier for delivery speed optimization and dynamic courier assignment.</p>
+                    <div class="project-features">
+                        <ul>
+                            <li>67% precision and recall</li>
+                            <li>18% improvement in delivery classification</li>
+                            <li>Geographic coordinate processing</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">KNN</span>
+                        <span class="tech-tag">Geospatial</span>
+                    </div>
+                    <div class="project-impact">
+                        <i class="fas fa-arrow-up"></i> <strong>Impact:</strong> Reduced delivery delays in urban zones
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-chart-bar"></i>
+                            <h3>Demand Forecasting System</h3>
+                        </div>
+                        <a href="https://github.com/mikloszpiotr/demand-forecasting-inventory-optimization" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">Time series forecasting with inventory optimization algorithms for demand prediction.</p>
+                    <div class="project-features">
+                        <ul>
+                            <li>Historical sales data analysis</li>
+                            <li>Safety stock calculations</li>
+                            <li>Interactive forecasting dashboard</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Time Series</span>
+                        <span class="tech-tag">Forecasting</span>
+                    </div>
+                    <div class="project-impact">
+                        <i class="fas fa-arrow-up"></i> <strong>Impact:</strong> Optimized inventory turnover
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-projects">
+                <i class="fas fa-external-link-alt"></i>
+                <p>Explore more projects in my <a href="https://github.com/mikloszpiotr?tab=repositories" target="_blank">GitHub portfolio</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-prop">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-trophy"></i> Professional Value
+            </h2>
+            <div class="value-grid">
+                <div class="value-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>End-to-end ML Solutions</h3>
+                    <p>From data collection to production deployment</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Supply Chain Expertise</h3>
+                    <p>Deep understanding of logistics challenges</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Production-ready Code</h3>
+                    <p>Interactive dashboards and deployment-ready solutions</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Business Impact Focus</h3>
+                    <p>Solutions that drive operational KPIs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-handshake"></i> Let's Connect
+            </h2>
+            <div class="contact-content">
+                <p>Open to discussing Analytics Manager opportunities and ML applications in supply chain operations.</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/piotrmikłosz" target="_blank" class="contact-btn">
+                        <i class="fab fa-linkedin"></i>
+                        Connect on LinkedIn
+                    </a>
+                    <a href="https://github.com/mikloszpiotr" target="_blank" class="contact-btn">
+                        <i class="fab fa-github"></i>
+                        View GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><i class="fas fa-code"></i> Piotr Miklosz - Analytics Portfolio showcasing ML expertise in supply chain optimization</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
