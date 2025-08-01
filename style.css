@@ -1,0 +1,51 @@
+/* Experience highlights section */
+.experience-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.experience-highlights .highlight-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: var(--bg-primary);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--primary);
+}
+
+.experience-highlights .highlight-item i {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+}
+
+.experience-highlights .highlight-item div strong {
+    display: block;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.experience-highlights .highlight-item div p {
+    color: var(--text-secondary);
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Mobile responsive for experience highlights */
+@media (max-width: 768px) {
+    .experience-highlights {
+        grid-template-columns: 1fr;
+    }
+    
+    .experience-highlights .highlight-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.75rem;
+    }
+}
